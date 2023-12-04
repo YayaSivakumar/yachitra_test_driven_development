@@ -25,4 +25,13 @@ public class ColourTableTest {
         ColourTable table = new ColourTable(4);
         assertDoesNotThrow(() -> table.add(0xFFFFFF)); // White color in RGB
     }
+
+    @Test
+    void testExceedingCapacityThrowsException() {
+        ColourTable table = new ColourTable(2);
+        table.add(0xFFFFFF);
+        table.add(0x000000);
+        assertThrows(IllegalArgumentException.class, () -> table.add(0xFF0000)); // Third addition will cause exception
+    }
+
 }
