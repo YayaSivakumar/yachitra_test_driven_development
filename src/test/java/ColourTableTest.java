@@ -6,4 +6,10 @@ public class ColourTableTest {
     void testValidConstructor() {
         assertDoesNotThrow(() -> new ColourTable(8));
     }
+    @Test
+    void testConstructorInvalidSize() {
+        assertThrows(IllegalArgumentException.class, () -> new ColourTable(3));
+        assertThrows(IllegalArgumentException.class, () -> new ColourTable(1025));
+        assertThrows(IllegalArgumentException.class, () -> new ColourTable());
+    }
 }
