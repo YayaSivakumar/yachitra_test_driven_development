@@ -13,4 +13,8 @@ public class ColourTable {
         }
         this.colours = new ArrayList<>(size);
     }
+
+    public void add(int rgb) {
+        colours.add(rgb);
+    }
 }
