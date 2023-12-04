@@ -1,0 +1,41 @@
+commit d585e5c9118bbac64c5a4fd0993e9f12364d34b1
+Author: yachitrasivakumar <yaya.s@hotmail.co.uk>
+Date:   Mon Dec 4 18:39:16 2023 +0000
+
+    Created test to handle duplicate colours and 24-bit colour validation, wrote code to allow these tests to pass
+
+commit 831529ba6c344d4b0157a7f371b768e66c09e097
+Author: yachitrasivakumar <yaya.s@hotmail.co.uk>
+Date:   Mon Dec 4 18:27:58 2023 +0000
+
+    Created test handle duplicate colours, wrote code to allow this test to pass
+
+commit 31a37e92aa07fe37fb879b9c6b2dc9f00b286b1d
+Author: yachitrasivakumar <yaya.s@hotmail.co.uk>
+Date:   Mon Dec 4 18:23:56 2023 +0000
+
+    Created test for adding a colour to table, wrote code to allow this test to pass
+
+commit c71d9f53061417a78dc049cac895dfcf69fc3c9a
+Author: yachitrasivakumar <yaya.s@hotmail.co.uk>
+Date:   Mon Dec 4 18:20:06 2023 +0000
+
+    Added test case to check for valid size in constructor and function code to pass test case
+
+commit 42dbf7b552e895f702c20af6aafe1a13a144bba1
+Author: yachitrasivakumar <yaya.s@hotmail.co.uk>
+Date:   Mon Dec 4 18:17:16 2023 +0000
+
+    Added first test case and function code to pass test case
+
+commit f1f29a84784ca1cbedfae56f6aa7fcbb37d2b4c3
+Author: yachitrasivakumar <yaya.s@hotmail.co.uk>
+Date:   Mon Dec 4 18:07:40 2023 +0000
+
+    Added Maven dependencies and plugins
+
+commit 7238f2ac4e4ad783ab20eaa2f3f814937d067512
+Author: yachitrasivakumar <yaya.s@hotmail.co.uk>
+Date:   Mon Dec 4 18:02:08 2023 +0000
+
+    Initial commit
